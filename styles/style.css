@@ -1,0 +1,465 @@
+@font-face {
+    font-family: Golos;
+    src: url(./fonts/Golos-Text_Regular.ttf);
+    font-style: normal;
+}
+*{
+    text-decoration: none;
+    margin: 0;
+    color: white;
+    font-family: 'Golos';
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #141414;
+}
+.conteiner{
+    width: 1366px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*шапка*/
+.logotip{
+    align-items: center;
+    display: flex;
+    width: 1366px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+ .text_logo a{
+    font-size: 18px;
+    text-decoration: none;
+    padding-right: 15px;
+}
+.icons{
+    display: flex;
+    margin-right: 200px;
+}
+.icon{
+    align-items: center;
+    display: flex;
+    margin-left: 25px;
+}
+.icon img{
+    align-items: center;
+    display: flex;
+    margin-right: 5px;
+}
+.icon a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.text_logo{
+    display: flex;
+    margin-right: 100px;
+}
+
+
+/*незнакомец*/
+.neznakom{
+    background-image: url(./img/1.jpg);
+    padding-left: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 590px;
+    width: 1170px;
+    margin-top: 30px;
+}
+.neznakom .info h1{
+    font-size: 65px;
+}
+.neznakom .info{
+    padding-bottom: 80px;
+}
+.neznakom .info .vozrast{
+    margin-top: 10px;
+    align-items: center;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.vozrast h4{
+    color: #909090;
+    font-size: 13px;
+}
+.opisanie p{
+    color: #dedede;
+    font-size: 18px;
+    margin-top: 20px;
+    width: 450px;
+}
+.knopki{
+    width: 500px;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+}
+.knopki .knp_1{
+    background: linear-gradient(90deg, #0052d5, #6fb0fc);
+    border-radius: 10px;
+    width: 50%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.knopki .knp_1 img{
+    margin-right: 10px;
+}
+.knopki .knp_2{
+    width: 26%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #020e20, #1b1f26);
+}
+.knopki .knp_2 img{
+    margin-right: 10px;
+}
+.knopki .knp_3{
+    width: 12%;
+    height: 60px;
+    justify-content: center;
+    margin-right: 20px;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #020e20, #1b1f26);
+}
+
+/*4 картинки*/
+.reci{
+    width: 1170px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+.reci h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.bloks{
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.bloks .blokk img{
+    border-radius: 10px;
+    width: 90%;
+}
+.bloks .blokk h3{
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.bloks .blokk h4{
+    font-weight: 400;
+    margin-top: 8px;
+    font-size: 15px;
+    color: #868585;
+}
+
+
+
+
+
+/*космическая подборка*/
+.podborka{
+    margin-top: 40px;
+    background-image: url(./img/6.jpg);
+    border-radius: 10px;
+    height: 500px;
+    flex-direction: column;
+    display: flex;
+    padding-left: 40px;
+    justify-content: center;
+    width: 1170px;
+}
+.podborka h2{
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 65px;
+    width: 50px;
+}
+.podborka p{
+    margin-top: 23px;
+    font-weight: 400;
+    font-size: 18px;
+    width: 450px;
+}
+.podborka .button{
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 300px;
+    height: 60px;
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(90deg, #0052d5, #6fb0fc);
+}
+
+
+
+
+
+
+
+
+
+/*бессоница*/
+.dva_bloka{ 
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 100px; 
+} 
+.dva_bloka .bessonic .button a{ 
+    text-decoration: none; 
+    color: #dedede; 
+    font-size: 16px; 
+    font-weight: 700; 
+    background: linear-gradient(90deg, #ff512e, #f0971a); 
+    padding: 13px 25px; 
+    border-radius: 50px; 
+    letter-spacing: 1px; 
+} 
+.dva_bloka .bessonic h2{ 
+    font-size: 50px; 
+    text-transform: uppercase; 
+    color: #f0f0f0; 
+    margin-top: 25px; 
+} 
+.dva_bloka .vozrastt{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    width: 360px; 
+    margin-top: 25px; 
+} 
+ 
+.dva_bloka .vozrastt h3{ 
+    font-size: 16px; 
+    color: #f0f0f0; 
+} 
+.dva_bloka .vozrastt p{ 
+    font-size: 14px; 
+    color: #707070; 
+} 
+.dva_bloka .raskaz p{ 
+    font-size: 18px; 
+    font-weight: 600; 
+    color: #dedede; 
+    width: 470px; 
+    margin-top: 25px; 
+} 
+.dva_bloka .raskaz h3{ 
+    font-size: 40px; 
+    color: #dedede; 
+    letter-spacing: 5%; 
+    margin-top: 25px; 
+} 
+.dva_bloka .raskaz .button_1{ 
+    margin-top: 30px; 
+} 
+.dva_bloka .raskaz  .button_1 a{ 
+    color: #f0f0f0; 
+    font-size: 14px; 
+    padding: 20px 30px; 
+    background: linear-gradient(90deg, #0152d4,#6fb1fc); 
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-weight: 600; 
+} 
+.dva_bloka .raskaz .button_1 img{ 
+    position: relative; 
+    right: 190px; 
+    top: 3px; 
+} 
+.dva_bloka .raskaz .button_2{ 
+   margin-top: -20px; 
+   margin-left: 220px 
+} 
+.dva_bloka .raskaz  .button_2 a{ 
+    color: #f0f0f0; 
+    font-size: 14px; 
+    padding: 20px 30px; 
+    background: linear-gradient(90deg, #010c20, #1c1f26); 
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-weight: 600; 
+} 
+.dva_bloka .raskaz .button_2 img{ 
+    position: relative; 
+    right: 110px; 
+    top: 3px; 
+} 
+.dva_bloka .raskaz .button_3{ 
+    width: 55px; 
+    height: 55px; 
+    background: linear-gradient(90deg, #010c20, #1c1f26); 
+    border-radius: 5px; 
+    margin-top: -37px; 
+    margin-left: 360px 
+} 
+.dva_bloka .raskaz .button_3 img{ 
+    position: relative; 
+    right: -23px; 
+    top: 20px; 
+} 
+.dva_bloka .fotka img{ 
+    border-radius: 8px; 
+}
+
+
+
+
+
+
+
+
+
+
+/*вкладки и коллаж четырех картинок*/
+.dvoinoy{
+    margin-top: 100px;
+    display: flex;
+    width: 1170px;
+}
+.vkladki{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+.iinfo .vkladki h3.n{
+    font-weight: 700;
+    border-bottom: 2px solid #6fb1fc;
+    font-size: 15px;
+}
+.iinfo .vkladki h3.gray{
+    border: 0;
+    color: #565656;
+}
+.iinfo p{
+    width: 395px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.kartinkii{
+    width: 800px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-left: 50px;
+}
+.kartinkii img{
+    border-radius: 10px;
+    width: 49%;
+    height: 49%;
+}
+.kartinkii .niz{
+    margin-top: 10px;
+}
+
+
+
+/*синие цифры*/
+.cifri{
+    display: flex;
+    align-items: center;
+    background-color: #1f1f1f;
+    justify-content: space-around;
+    width: 1170px;
+    border-radius: 10px;
+    height: 500px;
+    margin-top: 100px;
+}
+.cifri  img{
+   width: 40%;
+}
+.cifri h3{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.cifri .infa_text{
+    width: 50%;
+}
+.cifri .infa_text p{
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.cifri .cufru{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    margin-left: -28px;
+    justify-content: center;
+}
+.cifri .one{
+    width: 270px;
+}
+.cifri .one h2{
+    font-size: 40px;
+}
+.cifri .one p{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.cifri .two{
+    width: 270px;
+}
+.cifri .two h2{
+    font-size: 40px;
+}
+.cifri .two p{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+
+
+/*подвал*/
+.podval{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    width: 1170px;
+}
+.podval .infaa{
+    display: flex;
+    text-decoration: none;
+    width: 600px;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+.podval .infaa h4{
+    font-weight: 400;
+    font-size: 13px;
+}
+.podval .infaa a{
+    font-weight: 400;
+    font-size: 13px;
+    text-decoration: underline;
+}
+.podval .znaki{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    justify-content: space-between;
+}
